@@ -1,0 +1,598 @@
+{
+  "heroes": [
+    {
+      "name": "lubanqihao",
+      "physical_attack": 50,
+      "physical_defense": 40,
+      "magical_attack": 30,
+      "magical_defense": 20,
+      "base_health": 1000,
+      "movement_speed": 300,
+      "attack_speed": 1.2,
+      "body": "square",
+      "head": "circle",
+      "leg": "triangle",
+      "skills": [
+        {
+          "name": "hetunshoulei",
+          "base_damage": 100,
+          "physical_damage_multiplier": 1.2,
+          "cooldown_time": 5
+        },
+        {
+          "name": "wudishazuipao",
+          "base_damage": 150,
+          "physical_damage_multiplier": 1.5,
+          "cooldown_time": 8
+        },
+        {
+          "name": "kongzhongzhiyuan",
+          "base_damage": 200,
+          "physical_damage_multiplier": 2.0,
+          "cooldown_time": 12
+        }
+      ]
+    },
+    {
+      "name": "zhaoyun",
+      "physical_attack": 70,
+      "physical_defense": 60,
+      "magical_attack": 20,
+      "magical_defense": 30,
+      "base_health": 1200,
+      "movement_speed": 320,
+      "attack_speed": 1.1,
+      "body": "triangle",
+      "head": "square",
+      "leg": "circle",
+      "skills": [
+        {
+          "name": "longdan",
+          "base_damage": 120,
+          "physical_damage_multiplier": 1.3,
+          "cooldown_time": 6
+        },
+        {
+          "name": "yueji",
+          "base_damage": 180,
+          "physical_damage_multiplier": 1.7,
+          "cooldown_time": 10
+        },
+        {
+          "name": "leitingzhan",
+          "base_damage": 250,
+          "physical_damage_multiplier": 2.2,
+          "cooldown_time": 14
+        }
+      ]
+    },
+    {
+      "name": "yase",
+      "physical_attack": 50,
+      "physical_defense": 40,
+      "magical_attack": 30,
+      "magical_defense": 20,
+      "base_health": 1500,
+      "movement_speed": 300,
+      "attack_speed": 1.2,
+      "body": "circle",
+      "head": "triangle",
+      "leg": "square",
+      "skills": [
+        {
+          "name": "qiyuezhidun",
+          "base_damage": 150,
+          "physical_damage_multiplier": 1.1,
+          "cooldown_time": 8
+        },
+        {
+          "name": "huixuandaji",
+          "base_damage": 150,
+          "physical_damage_multiplier": 1.2,
+          "cooldown_time": 8
+        },
+        {
+          "name": "shengjiancaijue",
+          "base_damage": 200,
+          "physical_damage_multiplier": 2.0,
+          "cooldown_time": 12
+        }
+      ]
+    },
+    {
+      "name": "anqila",
+      "physical_attack": 50,
+      "physical_defense": 40,
+      "magical_attack": 30,
+      "magical_defense": 20,
+      "base_health": 1100,
+      "movement_speed": 300,
+      "attack_speed": 1.2,
+      "body": "triangle",
+      "head": "square",
+      "leg": "circle",
+      "skills": [
+        {
+          "name": "mofadan",
+          "base_damage": 400,
+          "magical_damage_multiplier": 1.2,
+          "cooldown_time": 5
+        },
+        {
+          "name": "hundunhuozhong",
+          "base_damage": 150,
+          "magical_damage_multiplier": 1.5,
+          "cooldown_time": 8
+        },
+        {
+          "name": "zhireguanghui",
+          "base_damage": 500,
+          "magical_damage_multiplier": 2.0,
+          "cooldown_time": 12
+        }
+      ]
+    },
+    {
+      "name": "hanxin",
+      "physical_attack": 80,
+      "physical_defense": 50,
+      "magical_attack": 10,
+      "magical_defense": 30,
+      "base_health": 1300,
+      "movement_speed": 340,
+      "attack_speed": 1.3,
+      "body": "circle",
+      "head": "triangle",
+      "leg": "square",
+      "skills": [
+        {
+          "name": "paofengci",
+          "base_damage": 150,
+          "physical_damage_multiplier": 1.4,
+          "cooldown_time": 6
+        },
+        {
+          "name": "xuezhiruichi",
+          "base_damage": 200,
+          "physical_damage_multiplier": 1.8,
+          "cooldown_time": 9
+        },
+        {
+          "name": "jiusheng",
+          "base_damage": 300,
+          "physical_damage_multiplier": 2.5,
+          "cooldown_time": 15
+        }
+      ]
+    },
+    {
+      "name": "libai",
+      "physical_attack": 90,
+      "physical_defense": 60,
+      "magical_attack": 20,
+      "magical_defense": 40,
+      "base_health": 1400,
+      "movement_speed": 330,
+      "attack_speed": 1.2,
+      "body": "square",
+      "head": "circle",
+      "leg": "triangle",
+      "skills": [
+        {
+          "name": "baibianlong",
+          "base_damage": 160,
+          "physical_damage_multiplier": 1.5,
+          "cooldown_time": 7
+        },
+        {
+          "name": "huxiao",
+          "base_damage": 220,
+          "physical_damage_multiplier": 1.9,
+          "cooldown_time": 10
+        },
+        {
+          "name": "shiqijiu",
+          "base_damage": 350,
+          "physical_damage_multiplier": 2.3,
+          "cooldown_time": 13
+        }
+      ]
+    },
+    {
+      "name": "houyi",
+      "physical_attack": 85,
+      "physical_defense": 45,
+      "magical_attack": 0,
+      "magical_defense": 25,
+      "base_health": 1200,
+      "movement_speed": 320,
+      "attack_speed": 1.3,
+      "body": "triangle",
+      "head": "square",
+      "leg": "circle",
+      "skills": [
+        {
+          "name": "liangxianjian",
+          "base_damage": 130,
+          "physical_damage_multiplier": 1.2,
+          "cooldown_time": 6
+        },
+        {
+          "name": "chongzhizhuang",
+          "base_damage": 190,
+          "physical_damage_multiplier": 1.6,
+          "cooldown_time": 9
+        },
+        {
+          "name": "sanjianqi",
+          "base_damage": 280,
+          "physical_damage_multiplier": 2.1,
+          "cooldown_time": 12
+        }
+      ]
+    },
+    {
+      "name": "daji",
+      "physical_attack": 40,
+      "physical_defense": 30,
+      "magical_attack": 70,
+      "magical_defense": 40,
+      "base_health": 1100,
+      "movement_speed": 300,
+      "attack_speed": 1.0,
+      "body": "circle",
+      "head": "triangle",
+      "leg": "square",
+      "skills": [
+        {
+          "name": "hudunmofang",
+          "base_damage": 300,
+          "magical_damage_multiplier": 1.5,
+          "cooldown_time": 5
+        },
+        {
+          "name": "tianmixuanfeng",
+          "base_damage": 200,
+          "magical_damage_multiplier": 1.3,
+          "cooldown_time": 8
+        },
+        {
+          "name": "meilichongbai",
+          "base_damage": 400,
+          "magical_damage_multiplier": 2.0,
+          "cooldown_time": 11
+        }
+      ]
+    },
+    {
+      "name": "gongsunli",
+      "physical_attack": 70,
+      "physical_defense": 40,
+      "magical_attack": 30,
+      "magical_defense": 25,
+      "base_health": 1300,
+      "movement_speed": 350,
+      "attack_speed": 1.4,
+      "body": "square",
+      "head": "circle",
+      "leg": "triangle",
+      "skills": [
+        {
+          "name": "luohongyu",
+          "base_damage": 150,
+          "physical_damage_multiplier": 1.3,
+          "cooldown_time": 6
+        },
+        {
+          "name": "yuanxinjie",
+          "base_damage": 200,
+          "physical_damage_multiplier": 1.7,
+          "cooldown_time": 9
+        },
+        {
+          "name": "chongfeng",
+          "base_damage": 300,
+          "physical_damage_multiplier": 2.2,
+          "cooldown_time": 12
+        }
+      ]
+    },
+    {
+      "name": "zhenji",
+      "physical_attack": 60,
+      "physical_defense": 35,
+      "magical_attack": 50,
+      "magical_defense": 30,
+      "base_health": 1200,
+      "movement_speed": 310,
+      "attack_speed": 1.1,
+      "body": "triangle",
+      "head": "square",
+      "leg": "circle",
+      "skills": [
+        {
+          "name": "xuejing",
+          "base_damage": 200,
+          "magical_damage_multiplier": 1.4,
+          "cooldown_time": 5
+        },
+        {
+          "name": "fengxue",
+          "base_damage": 250,
+          "magical_damage_multiplier": 1.7,
+          "cooldown_time": 8
+        },
+        {
+          "name": "bingling",
+          "base_damage": 350,
+          "magical_damage_multiplier": 2.1,
+          "cooldown_time": 10
+        }
+      ]
+    },
+    {
+      "name": "baiqi",
+      "physical_attack": 60,
+      "physical_defense": 50,
+      "magical_attack": 25,
+      "magical_defense": 35,
+      "base_health": 1400,
+      "movement_speed": 310,
+      "attack_speed": 1.1,
+      "body": "circle",
+      "head": "triangle",
+      "leg": "square",
+      "skills": [
+        {
+          "name": "shadow_strike",
+          "base_damage": 150,
+          "physical_damage_multiplier": 1.2,
+          "cooldown_time": 6
+        },
+        {
+          "name": "phantom_assault",
+          "base_damage": 180,
+          "physical_damage_multiplier": 1.5,
+          "cooldown_time": 9
+        },
+        {
+          "name": "nightmare_blast",
+          "base_damage": 250,
+          "physical_damage_multiplier": 2.0,
+          "cooldown_time": 12
+        }
+      ]
+    },
+    {
+      "name": "yingzheng",
+      "physical_attack": 55,
+      "physical_defense": 45,
+      "magical_attack": 60,
+      "magical_defense": 40,
+      "base_health": 1300,
+      "movement_speed": 320,
+      "attack_speed": 1.0,
+      "body": "square",
+      "head": "circle",
+      "leg": "triangle",
+      "skills": [
+        {
+          "name": "fireball",
+          "base_damage": 200,
+          "magical_damage_multiplier": 1.5,
+          "cooldown_time": 7
+        },
+        {
+          "name": "flame_wave",
+          "base_damage": 250,
+          "magical_damage_multiplier": 1.8,
+          "cooldown_time": 10
+        },
+        {
+          "name": "inferno",
+          "base_damage": 300,
+          "magical_damage_multiplier": 2.2,
+          "cooldown_time": 14
+        }
+      ]
+    },
+    {
+      "name": "lizun",
+      "physical_attack": 70,
+      "physical_defense": 55,
+      "magical_attack": 20,
+      "magical_defense": 25,
+      "base_health": 1500,
+      "movement_speed": 330,
+      "attack_speed": 1.2,
+      "body": "triangle",
+      "head": "square",
+      "leg": "circle",
+      "skills": [
+        {
+          "name": "blade_fury",
+          "base_damage": 180,
+          "physical_damage_multiplier": 1.4,
+          "cooldown_time": 8
+        },
+        {
+          "name": "cyclone_strike",
+          "base_damage": 220,
+          "physical_damage_multiplier": 1.7,
+          "cooldown_time": 11
+        },
+        {
+          "name": "death_slash",
+          "base_damage": 300,
+          "physical_damage_multiplier": 2.3,
+          "cooldown_time": 15
+        }
+      ]
+    },
+    {
+      "name": "sunshangxiang",
+      "physical_attack": 80,
+      "physical_defense": 40,
+      "magical_attack": 30,
+      "magical_defense": 20,
+      "base_health": 1100,
+      "movement_speed": 340,
+      "attack_speed": 1.3,
+      "body": "circle",
+      "head": "triangle",
+      "leg": "square",
+      "skills": [
+        {
+          "name": "rapid_shot",
+          "base_damage": 160,
+          "physical_damage_multiplier": 1.3,
+          "cooldown_time": 6
+        },
+        {
+          "name": "explosive_arrow",
+          "base_damage": 200,
+          "physical_damage_multiplier": 1.6,
+          "cooldown_time": 9
+        },
+        {
+          "name": "volley",
+          "base_damage": 250,
+          "physical_damage_multiplier": 2.0,
+          "cooldown_time": 12
+        }
+      ]
+    },
+    {
+      "name": "machao",
+      "physical_attack": 85,
+      "physical_defense": 60,
+      "magical_attack": 20,
+      "magical_defense": 35,
+      "base_health": 1600,
+      "movement_speed": 310,
+      "attack_speed": 1.1,
+      "body": "square",
+      "head": "circle",
+      "leg": "triangle",
+      "skills": [
+        {
+          "name": "spear_thrust",
+          "base_damage": 200,
+          "physical_damage_multiplier": 1.4,
+          "cooldown_time": 7
+        },
+        {
+          "name": "lance_charge",
+          "base_damage": 250,
+          "physical_damage_multiplier": 1.8,
+          "cooldown_time": 10
+        },
+        {
+          "name": "impale",
+          "base_damage": 350,
+          "physical_damage_multiplier": 2.2,
+          "cooldown_time": 13
+        }
+      ]
+    },
+    {
+      "name": "daqiao",
+      "physical_attack": 50,
+      "physical_defense": 30,
+      "magical_attack": 70,
+      "magical_defense": 40,
+      "base_health": 1000,
+      "movement_speed": 300,
+      "attack_speed": 1.2,
+      "body": "triangle",
+      "head": "square",
+      "leg": "circle",
+      "skills": [
+        {
+          "name": "magic_circle",
+          "base_damage": 150,
+          "magical_damage_multiplier": 1.5,
+          "cooldown_time": 5
+        },
+        {
+          "name": "arcane_burst",
+          "base_damage": 200,
+          "magical_damage_multiplier": 1.8,
+          "cooldown_time": 8
+        },
+        {
+          "name": "mystic_barrage",
+          "base_damage": 300,
+          "magical_damage_multiplier": 2.1,
+          "cooldown_time": 12
+        }
+      ]
+    },
+    {
+      "name": "dianwei",
+      "physical_attack": 90,
+      "physical_defense": 70,
+      "magical_attack": 10,
+      "magical_defense": 25,
+      "base_health": 1500,
+      "movement_speed": 320,
+      "attack_speed": 1.0,
+      "body": "circle",
+      "head": "triangle",
+      "leg": "square",
+      "skills": [
+        {
+          "name": "berserk",
+          "base_damage": 200,
+          "physical_damage_multiplier": 1.6,
+          "cooldown_time": 7
+        },
+        {
+          "name": "cleave",
+          "base_damage": 250,
+          "physical_damage_multiplier": 2.0,
+          "cooldown_time": 9
+        },
+        {
+          "name": "decimate",
+          "base_damage": 400,
+          "physical_damage_multiplier": 2.4,
+          "cooldown_time": 13
+        }
+      ]
+    },
+    {
+      "name": "gaojianli",
+      "physical_attack": 40,
+      "physical_defense": 35,
+      "magical_attack": 80,
+      "magical_defense": 45,
+      "base_health": 1100,
+      "movement_speed": 300,
+      "attack_speed": 1.1,
+      "body": "square",
+      "head": "circle",
+      "leg": "triangle",
+      "skills": [
+        {
+          "name": "sonic_boom",
+          "base_damage": 180,
+          "magical_damage_multiplier": 1.4,
+          "cooldown_time": 6
+        },
+        {
+          "name": "echo_wave",
+          "base_damage": 220,
+          "magical_damage_multiplier": 1.7,
+          "cooldown_time": 9
+        },
+        {
+          "name": "sound_barrier",
+          "base_damage": 300,
+          "magical_damage_multiplier": 2.1,
+          "cooldown_time": 12
+        }
+      ]
+    }
+  ]
+}

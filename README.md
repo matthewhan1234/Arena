@@ -1,5 +1,5 @@
 # Arena — Two-Player Real-Time Multiplayer Fighting Game  
-A local client–server based real-time action game implemented in Python for the IB Computer Science Internal Assessment.  
+A local client–server based real-time action game implemented in Python for My IB Computer Science Internal Assessment.  
 Players select heroes, move freely, cast skills, and attempt to reduce the opponent’s HP to zero.
 
 ---

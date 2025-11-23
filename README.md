@@ -36,63 +36,82 @@ Players select heroes, move freely, cast skills, and attempt to reduce the oppon
 - New heroes can be added simply by editing the JSON file and adding a sprite
 
 ## 📁 Project Structure
+```text
 .
-server_run.py # Game server logic
-
-clientC.py # Game client with GUI
-
-property.json # Hero definitions
-
-assets/ # Sprite images (64×64 PNG)
-
-  zhaoyun.png
-  
-  lubanqihao.png
-  
-  ...
-  
-README.md
+├── server_run.py        # Game server logic
+├── clientC.py           # Game client with GUI
+├── property.json        # Hero definitions
+├── assets/              # Sprite images (64×64 PNG)
+│   ├── zhaoyun.png
+│   ├── lubanqihao.png
+│   └── ...
+└── README.md
+```
 
 
 ## How to Run the system:
   python server_run.py
+  
     Server started on 127.0.0.1:1212, waiting for connections...
+    
   python clientC.py
+  
     Start Client 1
+    
   python clientC.py
+  
     Start Client 2
+    
   
 ## How to Add another hero:
   To add another hero:
+  
     1. Copy an existing hero block
+    
     2. Change name / stats / skills
+    
     3. Add a sprite:
+    
       assets/<hero_name>.png
+      
         filename lowercase
+        
         size 64×64 recommended
+        
     The game loads heroes automatically — no code modification needed.
+    
 
 ## 🌱 Future Enhancements
+
 The system is designed to be expandable:
-  Online multiplayer (rooms, matchmaking)
-  Real hero animations (GIF spritesheets)
-  More skill types (AOE, projectile, dash)
-  Character selection by both players simultaneously
-  Enhanced UI with CustomTkinter
-  Game replays / recording
-  Multi-team modes (2v2, 3v3)
+
+- Online multiplayer (rooms, matchmaking)
+- Real hero animations (GIF spritesheets)
+- More skill types (AOE, projectile, dash)
+- Character selection by both players simultaneously
+- Enhanced UI with CustomTkinter
+- Game replays / recording
+- Multi-team modes (2v2, 3v3)
 
 ## 🛠 Troubleshooting
   “Cannot connect to server”
     Ensure server is running
+    
     Check port 1212 is open locally
+    
     Retry via dialog window
+    
 
   Sprites not showing
     Make sure sprite name matches hero name exactly
+    
     Must be PNG
+    
     Must be placed in /assets
+    
 
   JSONDecodeError
     Caused by partial packet
+    
     Automatically handled by buffer logic
+    
